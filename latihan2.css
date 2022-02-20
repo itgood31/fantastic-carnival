@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    text-align: center;
+}

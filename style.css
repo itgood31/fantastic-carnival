@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1150px;
+    margin:auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+
+.hero-text{
+    width: 450px;
+    
+}
+.hero-text h1 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
+
+.hero-text h1, .hero-text p {
+    margin-bottom: 35px;
+}
+
+.hero-text button {
+    background-color: #ff6464;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.post {
+    background-color: #EDF7FA;
+    padding: 15px 110px;
+    margin-top: 50px;
+}
+
+.post-recent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.post-recent h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.post-recent a {
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+
+.post-content {
+    display: flex;
+    gap: 20px;
+}
+
+.post-content-detail {
+    background-color: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.post-content-detail h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.post-content-detail label, .post-content-detail p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* start footer */
+.footer {
+    margin-top: 15px;
+}
+
+.footer-image, .footer-text {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        
+    }
+}
