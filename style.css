@@ -97,17 +97,72 @@
 
 /* start footer */
 .footer {
-    margin-top: 15px;
+    margin-top: 115px;
 }
 
 .footer-image, .footer-text {
     display: flex;
     justify-content:center;
-    gap: 10px;
-    margin-bottom: 5px;
+    gap: 15px;
+    margin-bottom: 20px;
     font-size: 12px;
 }
+.featured {
+    color: #21243D;
+    font-size: 22px;
+}
+.featured p{
+    margin-bottom: 30px;
+}
+.news {
+    background-color: white;
+    padding: 15px 110px;
+    margin-top: 50px;
+}
 
+.news-detail {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-detail h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.news-detail p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #21243D;
+}
+
+.news-detail label {
+   
+    
+}
+.label-tahun {
+   display: flex;
+   
+}
+
+.label-tahun-b {
+    background-color: #142850;
+    color: white;
+    margin-right: 20px;  
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.label-tahun-c {
+    color: #8695A4;
+    font-size: 20px;
+}
+
+hr {
+    color: #eae6e6;
+}
 @media only screen and (max-width: 600px){
     .container{
         
