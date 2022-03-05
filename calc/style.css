@@ -1,0 +1,30 @@
+.container {
+    width: 280px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px;
+}
+
+#input { 
+    height: 40;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.tombol {
+    text-align: center;
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+}
+
+.tombol .item{
+    padding: 15px 20px;
+    background-color: aliceblue;
+    font-size: 28px;
+    cursor: pointer;
+
+    
+}
